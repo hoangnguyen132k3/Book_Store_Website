@@ -1,0 +1,36 @@
+<div class="login-container">
+  <app-navbar></app-navbar>
+
+  <div class="content">
+    <!-- Ảnh minh họa -->
+    <div class="login-image">
+      <img src="https://cdn.popsww.com/blog/sites/2/2021/04/cam-tu-ky-bao.jpg" alt="Sách">
+    </div>
+
+    <!-- Form đăng nhập -->
+    <div class="login-form">
+      <h2>Đăng nhập</h2>
+      <form [formGroup]="loginForm" (ngSubmit)="onSubmit()">
+        <div class="form-group">
+          <label for="email">Email hoặc Số điện thoại</label>
+          <input type="text" id="email" formControlName="email" placeholder="Nhập email hoặc số điện thoại">
+          <p class="error" *ngIf="loginForm.controls['email'].touched && loginForm.controls['email'].invalid">
+            Email không hợp lệ!
+          </p>
+        </div>
+        <div class="form-group">
+          <label for="password">Mật khẩu</label>
+          <input type="password" id="password" formControlName="password" placeholder="Nhập mật khẩu">
+          <p class="error" *ngIf="loginForm.controls['password'].touched && loginForm.controls['password'].invalid">
+            Mật khẩu phải có ít nhất 6 ký tự!
+          </p>
+        </div>
+        <button type="submit" class="btn btn-primary" [disabled]="loginForm.invalid">Đăng nhập</button>
+      </form>
+      <p *ngIf="errorMessage" class="error">{{ errorMessage }}</p>
+      <p>Bạn chưa có tài khoản? <a (click)="goToRegister()">Tạo tài khoản</a></p>
+    </div>
+  </div>
+
+  <app-footer></app-footer>
+</div>

@@ -1,0 +1,124 @@
+.cart-container {
+  width: 80%;
+  margin: 20px auto;
+  text-align: left;
+  display: flex;
+  flex-direction: column; /* Thay đổi để hỗ trợ căn chỉnh linh hoạt */
+  justify-content: center; /* Căn giữa theo chiều ngang */
+  align-items: center;    /* Căn giữa theo chiều dọc */
+  min-height: calc(100vh - 100px); /* Đảm bảo container chiếm toàn bộ chiều cao viewport trừ footer */
+  box-sizing: border-box;
+  padding: 20px; /* Khoảng cách xung quanh bảng */
+  position: relative; /* Đặt vị trí tương đối để chứa các phần tử con */
+}
+
+.checkout-button-container {
+  position: absolute; /* Định vị tương đối với container cha */
+  top: 20px; /* Căn cách trên */
+  right: 20px; /* Căn cách phải */
+  z-index: 1; /* Đảm bảo nút nằm trên các phần tử khác */
+  text-align: right;
+}
+.home-button-container {
+  position: absolute; /* Định vị tương đối với container cha */
+  top: 20px; /* Căn cách trên */
+  left: 20px; /* Căn cách trái */
+  z-index: 1; /* Đảm bảo nút nằm trên các phần tử khác */
+  text-align: right;
+}
+
+.cart-table {
+  width: 100%; /* Đảm bảo bảng sử dụng toàn bộ chiều rộng container */
+  border-collapse: collapse; /* Loại bỏ khoảng cách giữa các ô */
+  border-radius: 10px; /* Bo góc cho bảng */
+  background-color: #ffffff;
+  overflow: hidden; /* Đảm bảo góc bo ảnh hưởng đến toàn bảng */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Tạo hiệu ứng đổ bóng */
+  text-align: left;
+}
+
+.cart-table th, .cart-table td {
+  border: 1px solid #ddd; /* Đường viền cho các ô */
+  padding: 10px; /* Khoảng cách bên trong ô */
+  text-align: center; /* Căn giữa nội dung trong ô */
+}
+
+.cart-table th {
+  background-color: #0066ff; /* Màu nền cho tiêu đề */
+}
+
+.product-info {
+  display: flex;
+  align-items: center;
+}
+
+.product-info img {
+  width: 50px;
+  height: 50px;
+  margin-right: 10px;
+  border-radius: 5px;
+}
+
+.product-image {
+  width: 50px;            /* Độ rộng của ảnh sản phẩm */
+  height: auto;           /* Tự động điều chỉnh chiều cao theo tỷ lệ */
+  margin-right: 10px;     /* Khoảng cách giữa ảnh và tên sản phẩm */
+  border-radius: 5px;     /* Bo góc ảnh nếu cần */
+  object-fit: cover;      /* Đảm bảo ảnh giữ đúng tỉ lệ */
+}
+
+.product-container {
+  display: flex; /* Bố cục linh hoạt */
+  flex-direction: column; /* Xếp ảnh và tên theo chiều dọc */
+  align-items: center; /* Căn giữa theo chiều ngang */
+  justify-content: center; /* Căn giữa theo chiều dọc */
+  height: 100%; /* Đảm bảo container chiếm toàn bộ chiều cao ô */
+}
+
+td {
+  text-align: center; /* Căn giữa theo chiều ngang */
+  vertical-align: middle; /* Căn giữa theo chiều dọc */
+}
+
+td:first-child {
+  display: flex; /* Sử dụng flexbox để sắp xếp ảnh và tên */
+  align-items: center; /* Căn giữa theo chiều dọc */
+  justify-content: flex-start; /* Căn nội dung về bên trái */
+  gap: 10px; /* Khoảng cách giữa ảnh và tên */
+}
+
+.quantity-input {
+  width: 60px;            /* Độ rộng của input */
+}
+
+.total {
+  text-align: right;
+  margin-top: 20px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.button-container {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 10px;
+}
+
+.next-page-button {
+  background-color: #007bff;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.next-page-button:hover {
+  background-color: #0056b3;
+}
+
+.btn-primary {
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}

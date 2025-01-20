@@ -1,0 +1,56 @@
+<div class="header">
+  <a routerLink="/" class="logo" style="color: #007bff;">Book Store</a>
+
+  <nav>
+    <a routerLink="/">Trang chủ</a>
+    <a routerLink="/category">Danh mục</a>
+    <a routerLink="/checkout">Đặt hàng</a>
+    <a routerLink="/contact">Hỗ trợ</a>
+    <a routerLink="/about">Giới thiệu</a>
+  </nav>
+
+  <!-- Thanh tìm kiếm -->
+  <div class="search-bar">
+    <input type="text" [(ngModel)]="searchTerm" placeholder="Tìm kiếm" />
+    <button (click)="search()">🔍</button>
+  </div>
+
+  <div class="header-icons">
+    <!-- Icon giỏ hàng -->
+    <div class="cart">
+      <button class="dropdown-button" (click)="goToPage('/cart')">🛒</button>
+    </div>
+
+    <!-- Icon người dùng -->
+    <div class="user-dropdown">
+      <a
+        class="nav-link dropdown-toggle"
+        href="#"
+        role="button"
+        data-bs-toggle="dropdown"
+        aria-expanded="false"
+        (click)="toggleUserMenu()"
+      >
+        👤
+      </a>
+      <ul class="dropdown-menu">
+        <!-- Nếu chưa đăng nhập -->
+        <ng-container *ngIf="!isLoggedIn; else loggedInMenu">
+          <li>
+            <a class="dropdown-item" (click)="goToPage('/login')">Đăng nhập</a>
+          </li>
+          <li>
+            <a class="dropdown-item" (click)="goToPage('/register')">Đăng ký</a>
+          </li>
+        </ng-container>
+
+        <!-- Nếu đã đăng nhập -->
+        <ng-template #loggedInMenu>
+          <li>
+            <a class="dropdown-item" (click)="logout()">Đăng xuất</a>
+          </li>
+        </ng-template>
+      </ul>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,48 @@
+<app-navbar></app-navbar>
+
+<!-- Categories -->
+<section class="categories">
+  <h3>Danh Mục</h3>
+  <div class="category-list">
+    <div
+      class="category-item"
+      *ngFor="let category of categories"
+      (click)="onCategoryClick(category.id)"
+      style="cursor: pointer;"
+    >
+      <img [src]="category.image" [alt]="category.name" />
+      <p>{{ category.name }}</p>
+    </div>
+  </div>
+</section>
+
+<!-- Products -->
+<section class="flash-sales">
+  <h3>Sản Phẩm</h3>
+  <div *ngIf="isLoading" class="loading">
+    <p>Đang tải sản phẩm...</p>
+  </div>
+  <div *ngIf="!isLoading && flashSales.length > 0" class="product-list">
+    <div class="product-item" *ngFor="let product of flashSales">
+      <img [src]="product.imageUrl" [alt]="product.name" />
+      <p>{{ product.name }}</p>
+      <p>
+        <span class="discount-price">{{ product.price | currency }}</span>
+        <span class="original-price">{{ product.originalPrice | currency }}</span>
+      </p>
+      <button (click)="addToCart(product.id)">Add To Cart</button>
+      <button 
+        class="btn btn-primary"
+        (click)="proceedToProductDetail(product.id)"
+        style="background-color: #ffffff; color: black; border: none; border-radius: 5px; padding: 10px 20px; font-size: 14px; cursor: pointer;"
+      >
+        👁️ Xem chi tiết
+      </button>
+    </div>
+  </div>
+  <div *ngIf="!isLoading && flashSales.length === 0" class="no-products">
+    <p>Không có sản phẩm nào trong danh mục này.</p>
+  </div>
+</section>
+
+<app-footer></app-footer>

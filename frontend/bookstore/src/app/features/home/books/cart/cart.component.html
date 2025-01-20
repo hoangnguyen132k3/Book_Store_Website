@@ -1,0 +1,59 @@
+<app-navbar></app-navbar> <!-- Thêm navbar -->
+<div class="cart-container">
+  <!-- Nút điều hướng -->
+  <div class="checkout-button-container">
+    <button 
+      class="btn btn-primary" 
+      (click)="proceedToCheckout()" 
+      style="background-color: #d32f2f; color: white; border: none; border-radius: 10px;">
+      Đi đến thanh toán >
+    </button>
+  </div>
+  <div class="home-button-container">
+    <button 
+      class="btn btn-primary" 
+      (click)="proceedToHome()" 
+      style="background-color: #d32f2f; color: white; border: none; border-radius: 10px;">
+      < Quay lại trang chủ
+    </button>
+  </div>
+
+  <table class="cart-table" *ngIf="cartItems.length > 0; else emptyCart">
+    <thead>
+      <tr>
+        <th>Product</th>
+        <th>Price</th>
+        <th>Quantity</th>
+        <th>Subtotal</th>
+        <th>Actions</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let item of cartItems">
+        <td *ngIf="item.book">
+          <img [src]="item.book.imageUrl" alt="Product Image" class="product-image" />
+          {{ item.book.name }}
+        </td>
+        <td *ngIf="item.book">{{ item.book.price | currency: 'VND' }}</td>
+        <td>
+          <input
+            type="number"
+            [(ngModel)]="item.quantity"
+            min="1"
+            class="quantity-input"
+            (change)="updateCart(item)"
+          />
+        </td>
+        <td *ngIf="item.book">{{ (item.book.price * item.quantity) | currency: 'VND' }}</td>
+        <td>
+          <button (click)="removeFromCart(item)" class="btn btn-danger">Remove</button>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+  <ng-template #emptyCart>
+    <p class="empty-cart-message">Giỏ hàng của bạn đang trống!</p>
+  </ng-template>
+</div>
+
+<app-footer></app-footer>

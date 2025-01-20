@@ -1,0 +1,28 @@
+<app-navbar></app-navbar>
+<section class="flash-sales">
+  <h3>Tìm kiếm: "{{ searchTerm }}"</h3>
+  <div *ngIf="isLoading" class="loading">
+    <p>Đang tải kết quả...</p>
+  </div>
+  <div *ngIf="!isLoading && flashSales.length > 0" class="product-list">
+    <div class="product-item" *ngFor="let product of flashSales">
+      <img [src]="product.image" [alt]="product.name" />
+      <p>{{ product.name }}</p>
+      <p>
+        <span class="discount-price">{{ product.price | currency: 'VND' }}</span>
+        <span class="original-price">{{ product.originalPrice | currency: 'VND' }}</span>
+      </p>
+      <button (click)="addToCart(product.id)">Add To Cart</button>
+      <button
+        class="btn btn-primary"
+        (click)="proceedToProductDetail(product.id)"
+        style="background-color: #ffffff; color: white; border: none; border-radius: 5px; padding: 10px 20px; font-size: 14px; cursor: pointer;">
+        👁️
+      </button>
+    </div>
+  </div>
+  <div *ngIf="!isLoading && errorMessage" class="error">
+    <p>{{ errorMessage }}</p>
+  </div>
+</section>
+<app-footer></app-footer>

@@ -1,0 +1,98 @@
+C:\Users\hanhn\source\repos\BookStore\BookStore.DAL\bin\Debug\net8.0\BookStore.DAL.deps.json
+C:\Users\hanhn\source\repos\BookStore\BookStore.DAL\bin\Debug\net8.0\BookStore.DAL.runtimeconfig.json
+C:\Users\hanhn\source\repos\BookStore\BookStore.DAL\bin\Debug\net8.0\BookStore.DAL.dll
+C:\Users\hanhn\source\repos\BookStore\BookStore.DAL\bin\Debug\net8.0\BookStore.DAL.pdb
+C:\Users\hanhn\source\repos\BookStore\BookStore.DAL\obj\Debug\net8.0\BookStore.DAL.csproj.AssemblyReference.cache
+C:\Users\hanhn\source\repos\BookStore\BookStore.DAL\obj\Debug\net8.0\BookStore.DAL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\hanhn\source\repos\BookStore\BookStore.DAL\obj\Debug\net8.0\BookStore.DAL.AssemblyInfoInputs.cache
+C:\Users\hanhn\source\repos\BookStore\BookStore.DAL\obj\Debug\net8.0\BookStore.DAL.AssemblyInfo.cs
+C:\Users\hanhn\source\repos\BookStore\BookStore.DAL\obj\Debug\net8.0\BookStore.DAL.csproj.CoreCompileInputs.cache
+C:\Users\hanhn\source\repos\BookStore\BookStore.DAL\obj\Debug\net8.0\BookStore.DAL.dll
+C:\Users\hanhn\source\repos\BookStore\BookStore.DAL\obj\Debug\net8.0\refint\BookStore.DAL.dll
+C:\Users\hanhn\source\repos\BookStore\BookStore.DAL\obj\Debug\net8.0\BookStore.DAL.pdb
+C:\Users\hanhn\source\repos\BookStore\BookStore.DAL\obj\Debug\net8.0\BookStore.DAL.genruntimeconfig.cache
+C:\Users\hanhn\source\repos\BookStore\BookStore.DAL\obj\Debug\net8.0\ref\BookStore.DAL.dll
+C:\Users\Admin\Documents\Zalo Received Files\BookStore (1)\BookStore\BookStore.DAL\bin\Debug\net8.0\BookStore.DAL.deps.json
+C:\Users\Admin\Documents\Zalo Received Files\BookStore (1)\BookStore\BookStore.DAL\bin\Debug\net8.0\BookStore.DAL.runtimeconfig.json
+C:\Users\Admin\Documents\Zalo Received Files\BookStore (1)\BookStore\BookStore.DAL\bin\Debug\net8.0\BookStore.DAL.dll
+C:\Users\Admin\Documents\Zalo Received Files\BookStore (1)\BookStore\BookStore.DAL\bin\Debug\net8.0\BookStore.DAL.pdb
+C:\Users\Admin\Documents\Zalo Received Files\BookStore (1)\BookStore\BookStore.DAL\obj\Debug\net8.0\BookStore.DAL.csproj.AssemblyReference.cache
+C:\Users\Admin\Documents\Zalo Received Files\BookStore (1)\BookStore\BookStore.DAL\obj\Debug\net8.0\BookStore.DAL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Admin\Documents\Zalo Received Files\BookStore (1)\BookStore\BookStore.DAL\obj\Debug\net8.0\BookStore.DAL.AssemblyInfoInputs.cache
+C:\Users\Admin\Documents\Zalo Received Files\BookStore (1)\BookStore\BookStore.DAL\obj\Debug\net8.0\BookStore.DAL.AssemblyInfo.cs
+C:\Users\Admin\Documents\Zalo Received Files\BookStore (1)\BookStore\BookStore.DAL\obj\Debug\net8.0\BookStore.DAL.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Documents\Zalo Received Files\BookStore (1)\BookStore\BookStore.DAL\obj\Debug\net8.0\BookStore.DAL.dll
+C:\Users\Admin\Documents\Zalo Received Files\BookStore (1)\BookStore\BookStore.DAL\obj\Debug\net8.0\refint\BookStore.DAL.dll
+C:\Users\Admin\Documents\Zalo Received Files\BookStore (1)\BookStore\BookStore.DAL\obj\Debug\net8.0\BookStore.DAL.pdb
+C:\Users\Admin\Documents\Zalo Received Files\BookStore (1)\BookStore\BookStore.DAL\obj\Debug\net8.0\BookStore.DAL.genruntimeconfig.cache
+C:\Users\Admin\Documents\Zalo Received Files\BookStore (1)\BookStore\BookStore.DAL\obj\Debug\net8.0\ref\BookStore.DAL.dll
+C:\Users\hanhn\source\repos\backend\BookStore\BookStore.DAL\bin\Debug\net8.0\BookStore.DAL.deps.json
+C:\Users\hanhn\source\repos\backend\BookStore\BookStore.DAL\bin\Debug\net8.0\BookStore.DAL.runtimeconfig.json
+C:\Users\hanhn\source\repos\backend\BookStore\BookStore.DAL\bin\Debug\net8.0\BookStore.DAL.dll
+C:\Users\hanhn\source\repos\backend\BookStore\BookStore.DAL\bin\Debug\net8.0\BookStore.DAL.pdb
+C:\Users\hanhn\source\repos\backend\BookStore\BookStore.DAL\obj\Debug\net8.0\BookStore.DAL.csproj.AssemblyReference.cache
+C:\Users\hanhn\source\repos\backend\BookStore\BookStore.DAL\obj\Debug\net8.0\BookStore.DAL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\hanhn\source\repos\backend\BookStore\BookStore.DAL\obj\Debug\net8.0\BookStore.DAL.AssemblyInfoInputs.cache
+C:\Users\hanhn\source\repos\backend\BookStore\BookStore.DAL\obj\Debug\net8.0\BookStore.DAL.AssemblyInfo.cs
+C:\Users\hanhn\source\repos\backend\BookStore\BookStore.DAL\obj\Debug\net8.0\BookStore.DAL.csproj.CoreCompileInputs.cache
+C:\Users\hanhn\source\repos\backend\BookStore\BookStore.DAL\obj\Debug\net8.0\BookStore.DAL.dll
+C:\Users\hanhn\source\repos\backend\BookStore\BookStore.DAL\obj\Debug\net8.0\refint\BookStore.DAL.dll
+C:\Users\hanhn\source\repos\backend\BookStore\BookStore.DAL\obj\Debug\net8.0\BookStore.DAL.pdb
+C:\Users\hanhn\source\repos\backend\BookStore\BookStore.DAL\obj\Debug\net8.0\BookStore.DAL.genruntimeconfig.cache
+C:\Users\hanhn\source\repos\backend\BookStore\BookStore.DAL\obj\Debug\net8.0\ref\BookStore.DAL.dll
+C:\Users\hanhn\source\repos\backend\backend\BookStore\BookStore.DAL\bin\Debug\net8.0\BookStore.DAL.deps.json
+C:\Users\hanhn\source\repos\backend\backend\BookStore\BookStore.DAL\bin\Debug\net8.0\BookStore.DAL.runtimeconfig.json
+C:\Users\hanhn\source\repos\backend\backend\BookStore\BookStore.DAL\bin\Debug\net8.0\BookStore.DAL.dll
+C:\Users\hanhn\source\repos\backend\backend\BookStore\BookStore.DAL\bin\Debug\net8.0\BookStore.DAL.pdb
+C:\Users\hanhn\source\repos\backend\backend\BookStore\BookStore.DAL\obj\Debug\net8.0\BookStore.DAL.csproj.AssemblyReference.cache
+C:\Users\hanhn\source\repos\backend\backend\BookStore\BookStore.DAL\obj\Debug\net8.0\BookStore.DAL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\hanhn\source\repos\backend\backend\BookStore\BookStore.DAL\obj\Debug\net8.0\BookStore.DAL.AssemblyInfoInputs.cache
+C:\Users\hanhn\source\repos\backend\backend\BookStore\BookStore.DAL\obj\Debug\net8.0\BookStore.DAL.AssemblyInfo.cs
+C:\Users\hanhn\source\repos\backend\backend\BookStore\BookStore.DAL\obj\Debug\net8.0\BookStore.DAL.csproj.CoreCompileInputs.cache
+C:\Users\hanhn\source\repos\backend\backend\BookStore\BookStore.DAL\obj\Debug\net8.0\BookStore.DAL.dll
+C:\Users\hanhn\source\repos\backend\backend\BookStore\BookStore.DAL\obj\Debug\net8.0\refint\BookStore.DAL.dll
+C:\Users\hanhn\source\repos\backend\backend\BookStore\BookStore.DAL\obj\Debug\net8.0\BookStore.DAL.pdb
+C:\Users\hanhn\source\repos\backend\backend\BookStore\BookStore.DAL\obj\Debug\net8.0\BookStore.DAL.genruntimeconfig.cache
+C:\Users\hanhn\source\repos\backend\backend\BookStore\BookStore.DAL\obj\Debug\net8.0\ref\BookStore.DAL.dll
+C:\Users\Admin\Downloads\Thực tập\backend2\backend\BookStore\BookStore.DAL\bin\Debug\net8.0\BookStore.DAL.deps.json
+C:\Users\Admin\Downloads\Thực tập\backend2\backend\BookStore\BookStore.DAL\bin\Debug\net8.0\BookStore.DAL.runtimeconfig.json
+C:\Users\Admin\Downloads\Thực tập\backend2\backend\BookStore\BookStore.DAL\bin\Debug\net8.0\BookStore.DAL.dll
+C:\Users\Admin\Downloads\Thực tập\backend2\backend\BookStore\BookStore.DAL\bin\Debug\net8.0\BookStore.DAL.pdb
+C:\Users\Admin\Downloads\Thực tập\backend2\backend\BookStore\BookStore.DAL\obj\Debug\net8.0\BookStore.DAL.csproj.AssemblyReference.cache
+C:\Users\Admin\Downloads\Thực tập\backend2\backend\BookStore\BookStore.DAL\obj\Debug\net8.0\BookStore.DAL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Admin\Downloads\Thực tập\backend2\backend\BookStore\BookStore.DAL\obj\Debug\net8.0\BookStore.DAL.AssemblyInfoInputs.cache
+C:\Users\Admin\Downloads\Thực tập\backend2\backend\BookStore\BookStore.DAL\obj\Debug\net8.0\BookStore.DAL.AssemblyInfo.cs
+C:\Users\Admin\Downloads\Thực tập\backend2\backend\BookStore\BookStore.DAL\obj\Debug\net8.0\BookStore.DAL.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Downloads\Thực tập\backend2\backend\BookStore\BookStore.DAL\obj\Debug\net8.0\BookStore.DAL.dll
+C:\Users\Admin\Downloads\Thực tập\backend2\backend\BookStore\BookStore.DAL\obj\Debug\net8.0\refint\BookStore.DAL.dll
+C:\Users\Admin\Downloads\Thực tập\backend2\backend\BookStore\BookStore.DAL\obj\Debug\net8.0\BookStore.DAL.pdb
+C:\Users\Admin\Downloads\Thực tập\backend2\backend\BookStore\BookStore.DAL\obj\Debug\net8.0\BookStore.DAL.genruntimeconfig.cache
+C:\Users\Admin\Downloads\Thực tập\backend2\backend\BookStore\BookStore.DAL\obj\Debug\net8.0\ref\BookStore.DAL.dll
+C:\Users\hanhn\Desktop\backend\BookStore\BookStore.DAL\bin\Debug\net8.0\BookStore.DAL.deps.json
+C:\Users\hanhn\Desktop\backend\BookStore\BookStore.DAL\bin\Debug\net8.0\BookStore.DAL.runtimeconfig.json
+C:\Users\hanhn\Desktop\backend\BookStore\BookStore.DAL\bin\Debug\net8.0\BookStore.DAL.dll
+C:\Users\hanhn\Desktop\backend\BookStore\BookStore.DAL\bin\Debug\net8.0\BookStore.DAL.pdb
+C:\Users\hanhn\Desktop\backend\BookStore\BookStore.DAL\obj\Debug\net8.0\BookStore.DAL.csproj.AssemblyReference.cache
+C:\Users\hanhn\Desktop\backend\BookStore\BookStore.DAL\obj\Debug\net8.0\BookStore.DAL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\hanhn\Desktop\backend\BookStore\BookStore.DAL\obj\Debug\net8.0\BookStore.DAL.AssemblyInfoInputs.cache
+C:\Users\hanhn\Desktop\backend\BookStore\BookStore.DAL\obj\Debug\net8.0\BookStore.DAL.AssemblyInfo.cs
+C:\Users\hanhn\Desktop\backend\BookStore\BookStore.DAL\obj\Debug\net8.0\BookStore.DAL.csproj.CoreCompileInputs.cache
+C:\Users\hanhn\Desktop\backend\BookStore\BookStore.DAL\obj\Debug\net8.0\BookStore.DAL.dll
+C:\Users\hanhn\Desktop\backend\BookStore\BookStore.DAL\obj\Debug\net8.0\refint\BookStore.DAL.dll
+C:\Users\hanhn\Desktop\backend\BookStore\BookStore.DAL\obj\Debug\net8.0\BookStore.DAL.pdb
+C:\Users\hanhn\Desktop\backend\BookStore\BookStore.DAL\obj\Debug\net8.0\BookStore.DAL.genruntimeconfig.cache
+C:\Users\hanhn\Desktop\backend\BookStore\BookStore.DAL\obj\Debug\net8.0\ref\BookStore.DAL.dll
+C:\Users\Admin\Downloads\Thực tập\Backend3\BookStore\BookStore.DAL\bin\Debug\net8.0\BookStore.DAL.deps.json
+C:\Users\Admin\Downloads\Thực tập\Backend3\BookStore\BookStore.DAL\bin\Debug\net8.0\BookStore.DAL.runtimeconfig.json
+C:\Users\Admin\Downloads\Thực tập\Backend3\BookStore\BookStore.DAL\bin\Debug\net8.0\BookStore.DAL.dll
+C:\Users\Admin\Downloads\Thực tập\Backend3\BookStore\BookStore.DAL\bin\Debug\net8.0\BookStore.DAL.pdb
+C:\Users\Admin\Downloads\Thực tập\Backend3\BookStore\BookStore.DAL\obj\Debug\net8.0\BookStore.DAL.csproj.AssemblyReference.cache
+C:\Users\Admin\Downloads\Thực tập\Backend3\BookStore\BookStore.DAL\obj\Debug\net8.0\BookStore.DAL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Admin\Downloads\Thực tập\Backend3\BookStore\BookStore.DAL\obj\Debug\net8.0\BookStore.DAL.AssemblyInfoInputs.cache
+C:\Users\Admin\Downloads\Thực tập\Backend3\BookStore\BookStore.DAL\obj\Debug\net8.0\BookStore.DAL.AssemblyInfo.cs
+C:\Users\Admin\Downloads\Thực tập\Backend3\BookStore\BookStore.DAL\obj\Debug\net8.0\BookStore.DAL.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Downloads\Thực tập\Backend3\BookStore\BookStore.DAL\obj\Debug\net8.0\BookStore.DAL.dll
+C:\Users\Admin\Downloads\Thực tập\Backend3\BookStore\BookStore.DAL\obj\Debug\net8.0\refint\BookStore.DAL.dll
+C:\Users\Admin\Downloads\Thực tập\Backend3\BookStore\BookStore.DAL\obj\Debug\net8.0\BookStore.DAL.pdb
+C:\Users\Admin\Downloads\Thực tập\Backend3\BookStore\BookStore.DAL\obj\Debug\net8.0\BookStore.DAL.genruntimeconfig.cache
+C:\Users\Admin\Downloads\Thực tập\Backend3\BookStore\BookStore.DAL\obj\Debug\net8.0\ref\BookStore.DAL.dll

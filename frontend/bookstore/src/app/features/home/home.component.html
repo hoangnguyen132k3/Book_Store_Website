@@ -1,0 +1,90 @@
+<app-navbar></app-navbar>
+<div class="home-container">
+  <!-- Banner -->
+  <div class="banner">
+    <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="https://png.pngtree.com/thumb_back/fw800/background/20230611/pngtree-an-empty-bookshop-stacked-with-books-image_2924924.jpg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="https://salt.tikicdn.com/cache/w500/ts/tmp/24/b8/61/632e5eb432e0277b7897d58a56dbb310.jpg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ_VS11RSv5gaKAYF1ODtoqjetKYWk90U24tQ&s" class="d-block w-100" alt="...">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </div>
+
+  <!-- Categories -->
+  <section class="categories">
+    <h3>Phân loại</h3>
+    <div class="category-list">
+      <div 
+        class="category-item" 
+        *ngFor="let category of categories" 
+        (click)="onCategoryClick(category.id)"
+      >
+        <img [src]="category.image" [alt]="category.name" />
+        <p>{{ category.name }}</p>
+      </div>
+    </div>
+  </section>
+  
+  <!-- Flash Sales -->
+  <section class="flash-sales">
+    <h3>Sách</h3>
+    <div *ngIf="isLoading" class="loading">
+      <p>Đang tải danh sách sản phẩm...</p>
+    </div>
+    <div *ngIf="!isLoading && flashSales.length > 0" class="product-list">
+      <div class="product-item" *ngFor="let product of flashSales">
+        <img [src]="product.imageUrl" [alt]="product.name" />
+        <p>{{ product.name }}</p>
+        <p>
+          <span class="discount-price">{{ product.price | currency: 'VND' }}</span>
+          <span class="original-price">{{ product.originalPrice | currency: 'VND' }}</span>
+        </p>
+        <button (click)="addToCart(product.id)">Add To Cart</button>
+        <button
+          class="btn btn-primary"
+          (click)="proceedToProductDetail(product.id)"
+          style="background-color: #ffffff; color: white; border: none; border-radius: 5px; padding: 10px 20px; font-size: 14px; cursor: pointer;"
+        >
+          👁️
+        </button>
+      </div>
+    </div>
+    <div *ngIf="!isLoading && errorMessage" class="error">
+      <p>{{ errorMessage }}</p>
+    </div>
+  </section>
+
+  <section class="benefits">
+    <div class="benefit-item">
+      <img src="https://cdn-icons-png.flaticon.com/512/744/744922.png" alt="Free Delivery" />
+      <h4>Giao hàng miễn phí và nhanh chóng</h4>
+      <p>Giao hàng miễn phí cho tất cả các đơn hàng trên 200.000đ</p>
+    </div>
+    <div class="benefit-item">
+      <img src="https://cdn-icons-png.flaticon.com/512/1828/1828843.png" alt="24/7 Support" />
+      <h4>Phục vụ khách hàng 24/7</h4>
+      <p>Hỗ trợ khách hàng thân thiện 24/7</p>
+    </div>
+    <div class="benefit-item">
+      <img src="https://cdn-icons-png.flaticon.com/512/190/190411.png" alt="Money Back" />
+      <h4>Hoàn tiền nhanh chóng</h4>
+      <p>Chúng tôi hoàn lại tiền trong vòng 30 ngày</p>
+    </div>
+  </section>
+</div>
+<app-footer></app-footer>

@@ -1,0 +1,190 @@
+/* Tổng thể thanh navbar */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    height: 60px;
+}
+
+.header h1 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #007bff;
+    margin: 0;
+}
+
+.logo {
+    font-size: 28px; /* Cỡ chữ lớn */
+    font-weight: bold; /* Chữ đậm */
+    color: #ff0000; /* Màu đỏ */
+    text-decoration: none; /* Xóa gạch chân */
+    transition: color 0.3s ease; /* Hiệu ứng chuyển màu mượt */
+}
+
+.logo:hover {
+    color: #cc0000; /* Màu đậm hơn khi di chuột vào */
+}
+/* User Dropdown */
+.user-dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-options {
+    position: absolute;
+    top: 40px;
+    right: 0;
+    background: white;
+    color: black;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    min-width: 120px;
+    display: flex;
+    flex-direction: column;
+    z-index: 10;
+}
+
+.dropdown-options a {
+    padding: 10px;
+    text-decoration: none;
+    color: black;
+    display: block;
+}
+
+.dropdown-options a:hover {
+    background-color: #f0f0f0;
+}
+
+/* Navigation links */
+.header nav {
+    display: flex;
+    gap: 20px;
+}
+
+.header nav a {
+    text-decoration: none;
+    color: #333;
+    font-weight: 500;
+    transition: color 0.3s ease;
+}
+
+.header nav a:hover {
+    color: #007bff;
+}
+
+/* Thanh tìm kiếm */
+.search-bar {
+    display: flex;
+    align-items: center;
+    background-color: #f5f5f5;
+    padding: 5px 15px;
+    border-radius: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 250px;
+}
+
+.search-bar input[type="text"] {
+    border: none;
+    outline: none;
+    background: transparent;
+    font-size: 14px;
+    padding: 5px;
+    flex: 1;
+}
+
+.search-bar button {
+    border: none;
+    background-color: #ffffff;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.search-bar button:hover {
+    background-color: #ffffff;
+}
+
+/* Phần biểu tượng */
+.header-icons {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    
+}
+
+.header-icons button {
+    font-size: 20px;
+    background-color: transparent;
+    border: none;
+    color: #333;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* Đổi màu khi hover */
+.header-icons button:hover {
+    background-color: #007bff;
+    color: #007bff;
+}
+
+/* Dropdown menu cho người dùng */
+.user-dropdown {
+    position: relative;
+}
+
+#user-options {
+    position: absolute;
+    top: 40px; /* Căn chỉnh menu ngay dưới biểu tượng */
+    right: 0;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: none;
+    z-index: 1000;
+    width: 150px;
+}
+
+.user-dropdown.active #user-options {
+    display: block;
+}
+
+#user-options a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color: #333;
+    font-size: 14px;
+    transition: background-color 0.3s ease;
+}
+
+#user-options a:hover {
+    background-color: #f5f5f5;
+    color: #007bff;
+}
+
+/* Đảm bảo header trên các thiết bị nhỏ */
+@media (max-width: 768px) {
+    .header {
+        flex-wrap: wrap;
+    }
+
+    .header-icons {
+        justify-content: flex-end;
+    }
+
+    .search-bar {
+        margin: 10px 0;
+        width: 100%;
+    }
+}

@@ -1,0 +1,105 @@
+C:\Users\hanhn\source\repos\BookStore\BookStore.BLL\obj\Debug\net8.0\BookStore.BLL.csproj.AssemblyReference.cache
+C:\Users\hanhn\source\repos\BookStore\BookStore.BLL\obj\Debug\net8.0\BookStore.BLL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\hanhn\source\repos\BookStore\BookStore.BLL\obj\Debug\net8.0\BookStore.BLL.AssemblyInfoInputs.cache
+C:\Users\hanhn\source\repos\BookStore\BookStore.BLL\obj\Debug\net8.0\BookStore.BLL.AssemblyInfo.cs
+C:\Users\hanhn\source\repos\BookStore\BookStore.BLL\obj\Debug\net8.0\BookStore.BLL.csproj.CoreCompileInputs.cache
+C:\Users\hanhn\source\repos\BookStore\BookStore.BLL\bin\Debug\net8.0\BookStore.BLL.deps.json
+C:\Users\hanhn\source\repos\BookStore\BookStore.BLL\bin\Debug\net8.0\BookStore.BLL.dll
+C:\Users\hanhn\source\repos\BookStore\BookStore.BLL\bin\Debug\net8.0\BookStore.BLL.pdb
+C:\Users\hanhn\source\repos\BookStore\BookStore.BLL\bin\Debug\net8.0\BookStore.DAL.dll
+C:\Users\hanhn\source\repos\BookStore\BookStore.BLL\bin\Debug\net8.0\BookStore.DAL.pdb
+C:\Users\hanhn\source\repos\BookStore\BookStore.BLL\obj\Debug\net8.0\BookStor.549D0AC4.Up2Date
+C:\Users\hanhn\source\repos\BookStore\BookStore.BLL\obj\Debug\net8.0\BookStore.BLL.dll
+C:\Users\hanhn\source\repos\BookStore\BookStore.BLL\obj\Debug\net8.0\refint\BookStore.BLL.dll
+C:\Users\hanhn\source\repos\BookStore\BookStore.BLL\obj\Debug\net8.0\BookStore.BLL.pdb
+C:\Users\hanhn\source\repos\BookStore\BookStore.BLL\obj\Debug\net8.0\ref\BookStore.BLL.dll
+C:\Users\Admin\Documents\Zalo Received Files\BookStore (1)\BookStore\BookStore.BLL\bin\Debug\net8.0\BookStore.BLL.deps.json
+C:\Users\Admin\Documents\Zalo Received Files\BookStore (1)\BookStore\BookStore.BLL\bin\Debug\net8.0\BookStore.BLL.dll
+C:\Users\Admin\Documents\Zalo Received Files\BookStore (1)\BookStore\BookStore.BLL\bin\Debug\net8.0\BookStore.BLL.pdb
+C:\Users\Admin\Documents\Zalo Received Files\BookStore (1)\BookStore\BookStore.BLL\bin\Debug\net8.0\BookStore.DAL.dll
+C:\Users\Admin\Documents\Zalo Received Files\BookStore (1)\BookStore\BookStore.BLL\bin\Debug\net8.0\BookStore.DAL.pdb
+C:\Users\Admin\Documents\Zalo Received Files\BookStore (1)\BookStore\BookStore.BLL\obj\Debug\net8.0\BookStore.BLL.csproj.AssemblyReference.cache
+C:\Users\Admin\Documents\Zalo Received Files\BookStore (1)\BookStore\BookStore.BLL\obj\Debug\net8.0\BookStore.BLL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Admin\Documents\Zalo Received Files\BookStore (1)\BookStore\BookStore.BLL\obj\Debug\net8.0\BookStore.BLL.AssemblyInfoInputs.cache
+C:\Users\Admin\Documents\Zalo Received Files\BookStore (1)\BookStore\BookStore.BLL\obj\Debug\net8.0\BookStore.BLL.AssemblyInfo.cs
+C:\Users\Admin\Documents\Zalo Received Files\BookStore (1)\BookStore\BookStore.BLL\obj\Debug\net8.0\BookStore.BLL.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Documents\Zalo Received Files\BookStore (1)\BookStore\BookStore.BLL\obj\Debug\net8.0\BookStor.549D0AC4.Up2Date
+C:\Users\Admin\Documents\Zalo Received Files\BookStore (1)\BookStore\BookStore.BLL\obj\Debug\net8.0\BookStore.BLL.dll
+C:\Users\Admin\Documents\Zalo Received Files\BookStore (1)\BookStore\BookStore.BLL\obj\Debug\net8.0\refint\BookStore.BLL.dll
+C:\Users\Admin\Documents\Zalo Received Files\BookStore (1)\BookStore\BookStore.BLL\obj\Debug\net8.0\BookStore.BLL.pdb
+C:\Users\Admin\Documents\Zalo Received Files\BookStore (1)\BookStore\BookStore.BLL\obj\Debug\net8.0\ref\BookStore.BLL.dll
+C:\Users\hanhn\source\repos\backend\BookStore\BookStore.BLL\bin\Debug\net8.0\BookStore.BLL.deps.json
+C:\Users\hanhn\source\repos\backend\BookStore\BookStore.BLL\bin\Debug\net8.0\BookStore.BLL.dll
+C:\Users\hanhn\source\repos\backend\BookStore\BookStore.BLL\bin\Debug\net8.0\BookStore.BLL.pdb
+C:\Users\hanhn\source\repos\backend\BookStore\BookStore.BLL\bin\Debug\net8.0\BookStore.DAL.dll
+C:\Users\hanhn\source\repos\backend\BookStore\BookStore.BLL\bin\Debug\net8.0\BookStore.DAL.pdb
+C:\Users\hanhn\source\repos\backend\BookStore\BookStore.BLL\obj\Debug\net8.0\BookStore.BLL.csproj.AssemblyReference.cache
+C:\Users\hanhn\source\repos\backend\BookStore\BookStore.BLL\obj\Debug\net8.0\BookStore.BLL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\hanhn\source\repos\backend\BookStore\BookStore.BLL\obj\Debug\net8.0\BookStore.BLL.AssemblyInfoInputs.cache
+C:\Users\hanhn\source\repos\backend\BookStore\BookStore.BLL\obj\Debug\net8.0\BookStore.BLL.AssemblyInfo.cs
+C:\Users\hanhn\source\repos\backend\BookStore\BookStore.BLL\obj\Debug\net8.0\BookStore.BLL.csproj.CoreCompileInputs.cache
+C:\Users\hanhn\source\repos\backend\BookStore\BookStore.BLL\obj\Debug\net8.0\BookStor.549D0AC4.Up2Date
+C:\Users\hanhn\source\repos\backend\BookStore\BookStore.BLL\obj\Debug\net8.0\BookStore.BLL.dll
+C:\Users\hanhn\source\repos\backend\BookStore\BookStore.BLL\obj\Debug\net8.0\refint\BookStore.BLL.dll
+C:\Users\hanhn\source\repos\backend\BookStore\BookStore.BLL\obj\Debug\net8.0\BookStore.BLL.pdb
+C:\Users\hanhn\source\repos\backend\BookStore\BookStore.BLL\obj\Debug\net8.0\ref\BookStore.BLL.dll
+C:\Users\hanhn\source\repos\backend\backend\BookStore\BookStore.BLL\bin\Debug\net8.0\BookStore.BLL.deps.json
+C:\Users\hanhn\source\repos\backend\backend\BookStore\BookStore.BLL\bin\Debug\net8.0\BookStore.BLL.dll
+C:\Users\hanhn\source\repos\backend\backend\BookStore\BookStore.BLL\bin\Debug\net8.0\BookStore.BLL.pdb
+C:\Users\hanhn\source\repos\backend\backend\BookStore\BookStore.BLL\bin\Debug\net8.0\BookStore.DAL.dll
+C:\Users\hanhn\source\repos\backend\backend\BookStore\BookStore.BLL\bin\Debug\net8.0\BookStore.DAL.pdb
+C:\Users\hanhn\source\repos\backend\backend\BookStore\BookStore.BLL\obj\Debug\net8.0\BookStore.BLL.csproj.AssemblyReference.cache
+C:\Users\hanhn\source\repos\backend\backend\BookStore\BookStore.BLL\obj\Debug\net8.0\BookStore.BLL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\hanhn\source\repos\backend\backend\BookStore\BookStore.BLL\obj\Debug\net8.0\BookStore.BLL.AssemblyInfoInputs.cache
+C:\Users\hanhn\source\repos\backend\backend\BookStore\BookStore.BLL\obj\Debug\net8.0\BookStore.BLL.AssemblyInfo.cs
+C:\Users\hanhn\source\repos\backend\backend\BookStore\BookStore.BLL\obj\Debug\net8.0\BookStore.BLL.csproj.CoreCompileInputs.cache
+C:\Users\hanhn\source\repos\backend\backend\BookStore\BookStore.BLL\obj\Debug\net8.0\BookStor.549D0AC4.Up2Date
+C:\Users\hanhn\source\repos\backend\backend\BookStore\BookStore.BLL\obj\Debug\net8.0\BookStore.BLL.dll
+C:\Users\hanhn\source\repos\backend\backend\BookStore\BookStore.BLL\obj\Debug\net8.0\refint\BookStore.BLL.dll
+C:\Users\hanhn\source\repos\backend\backend\BookStore\BookStore.BLL\obj\Debug\net8.0\BookStore.BLL.pdb
+C:\Users\hanhn\source\repos\backend\backend\BookStore\BookStore.BLL\obj\Debug\net8.0\ref\BookStore.BLL.dll
+C:\Users\Admin\Downloads\Thực tập\backend2\backend\BookStore\BookStore.BLL\bin\Debug\net8.0\BookStore.BLL.deps.json
+C:\Users\Admin\Downloads\Thực tập\backend2\backend\BookStore\BookStore.BLL\bin\Debug\net8.0\BookStore.BLL.dll
+C:\Users\Admin\Downloads\Thực tập\backend2\backend\BookStore\BookStore.BLL\bin\Debug\net8.0\BookStore.BLL.pdb
+C:\Users\Admin\Downloads\Thực tập\backend2\backend\BookStore\BookStore.BLL\bin\Debug\net8.0\BookStore.DAL.dll
+C:\Users\Admin\Downloads\Thực tập\backend2\backend\BookStore\BookStore.BLL\bin\Debug\net8.0\BookStore.DAL.pdb
+C:\Users\Admin\Downloads\Thực tập\backend2\backend\BookStore\BookStore.BLL\obj\Debug\net8.0\BookStore.BLL.csproj.AssemblyReference.cache
+C:\Users\Admin\Downloads\Thực tập\backend2\backend\BookStore\BookStore.BLL\obj\Debug\net8.0\BookStore.BLL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Admin\Downloads\Thực tập\backend2\backend\BookStore\BookStore.BLL\obj\Debug\net8.0\BookStore.BLL.AssemblyInfoInputs.cache
+C:\Users\Admin\Downloads\Thực tập\backend2\backend\BookStore\BookStore.BLL\obj\Debug\net8.0\BookStore.BLL.AssemblyInfo.cs
+C:\Users\Admin\Downloads\Thực tập\backend2\backend\BookStore\BookStore.BLL\obj\Debug\net8.0\BookStore.BLL.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Downloads\Thực tập\backend2\backend\BookStore\BookStore.BLL\obj\Debug\net8.0\BookStor.549D0AC4.Up2Date
+C:\Users\Admin\Downloads\Thực tập\backend2\backend\BookStore\BookStore.BLL\obj\Debug\net8.0\BookStore.BLL.dll
+C:\Users\Admin\Downloads\Thực tập\backend2\backend\BookStore\BookStore.BLL\obj\Debug\net8.0\refint\BookStore.BLL.dll
+C:\Users\Admin\Downloads\Thực tập\backend2\backend\BookStore\BookStore.BLL\obj\Debug\net8.0\BookStore.BLL.pdb
+C:\Users\Admin\Downloads\Thực tập\backend2\backend\BookStore\BookStore.BLL\obj\Debug\net8.0\ref\BookStore.BLL.dll
+C:\Users\hanhn\Desktop\backend\BookStore\BookStore.BLL\bin\Debug\net8.0\BookStore.BLL.deps.json
+C:\Users\hanhn\Desktop\backend\BookStore\BookStore.BLL\bin\Debug\net8.0\BookStore.BLL.dll
+C:\Users\hanhn\Desktop\backend\BookStore\BookStore.BLL\bin\Debug\net8.0\BookStore.BLL.pdb
+C:\Users\hanhn\Desktop\backend\BookStore\BookStore.BLL\bin\Debug\net8.0\BookStore.DAL.dll
+C:\Users\hanhn\Desktop\backend\BookStore\BookStore.BLL\bin\Debug\net8.0\BookStore.DAL.pdb
+C:\Users\hanhn\Desktop\backend\BookStore\BookStore.BLL\obj\Debug\net8.0\BookStore.BLL.csproj.AssemblyReference.cache
+C:\Users\hanhn\Desktop\backend\BookStore\BookStore.BLL\obj\Debug\net8.0\BookStore.BLL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\hanhn\Desktop\backend\BookStore\BookStore.BLL\obj\Debug\net8.0\BookStore.BLL.AssemblyInfoInputs.cache
+C:\Users\hanhn\Desktop\backend\BookStore\BookStore.BLL\obj\Debug\net8.0\BookStore.BLL.AssemblyInfo.cs
+C:\Users\hanhn\Desktop\backend\BookStore\BookStore.BLL\obj\Debug\net8.0\BookStore.BLL.csproj.CoreCompileInputs.cache
+C:\Users\hanhn\Desktop\backend\BookStore\BookStore.BLL\obj\Debug\net8.0\BookStor.549D0AC4.Up2Date
+C:\Users\hanhn\Desktop\backend\BookStore\BookStore.BLL\obj\Debug\net8.0\BookStore.BLL.dll
+C:\Users\hanhn\Desktop\backend\BookStore\BookStore.BLL\obj\Debug\net8.0\refint\BookStore.BLL.dll
+C:\Users\hanhn\Desktop\backend\BookStore\BookStore.BLL\obj\Debug\net8.0\BookStore.BLL.pdb
+C:\Users\hanhn\Desktop\backend\BookStore\BookStore.BLL\obj\Debug\net8.0\ref\BookStore.BLL.dll
+C:\Users\Admin\Downloads\Thực tập\Backend3\BookStore\BookStore.BLL\bin\Debug\net8.0\BookStore.BLL.deps.json
+C:\Users\Admin\Downloads\Thực tập\Backend3\BookStore\BookStore.BLL\bin\Debug\net8.0\BookStore.BLL.dll
+C:\Users\Admin\Downloads\Thực tập\Backend3\BookStore\BookStore.BLL\bin\Debug\net8.0\BookStore.BLL.pdb
+C:\Users\Admin\Downloads\Thực tập\Backend3\BookStore\BookStore.BLL\bin\Debug\net8.0\BookStore.DAL.dll
+C:\Users\Admin\Downloads\Thực tập\Backend3\BookStore\BookStore.BLL\bin\Debug\net8.0\BookStore.DAL.pdb
+C:\Users\Admin\Downloads\Thực tập\Backend3\BookStore\BookStore.BLL\obj\Debug\net8.0\BookStore.BLL.csproj.AssemblyReference.cache
+C:\Users\Admin\Downloads\Thực tập\Backend3\BookStore\BookStore.BLL\obj\Debug\net8.0\BookStore.BLL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Admin\Downloads\Thực tập\Backend3\BookStore\BookStore.BLL\obj\Debug\net8.0\BookStore.BLL.AssemblyInfoInputs.cache
+C:\Users\Admin\Downloads\Thực tập\Backend3\BookStore\BookStore.BLL\obj\Debug\net8.0\BookStore.BLL.AssemblyInfo.cs
+C:\Users\Admin\Downloads\Thực tập\Backend3\BookStore\BookStore.BLL\obj\Debug\net8.0\BookStore.BLL.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Downloads\Thực tập\Backend3\BookStore\BookStore.BLL\obj\Debug\net8.0\BookStor.549D0AC4.Up2Date
+C:\Users\Admin\Downloads\Thực tập\Backend3\BookStore\BookStore.BLL\obj\Debug\net8.0\BookStore.BLL.dll
+C:\Users\Admin\Downloads\Thực tập\Backend3\BookStore\BookStore.BLL\obj\Debug\net8.0\refint\BookStore.BLL.dll
+C:\Users\Admin\Downloads\Thực tập\Backend3\BookStore\BookStore.BLL\obj\Debug\net8.0\BookStore.BLL.pdb
+C:\Users\Admin\Downloads\Thực tập\Backend3\BookStore\BookStore.BLL\obj\Debug\net8.0\ref\BookStore.BLL.dll

@@ -1,0 +1,32 @@
+<div class="product-detail-container">
+  <app-navbar></app-navbar>
+
+  <!-- Hiển thị trạng thái đang tải -->
+  <div *ngIf="isLoading" class="loading">
+    <p>Đang tải thông tin sản phẩm...</p>
+  </div>
+
+  <!-- Hiển thị lỗi nếu có -->
+  <div *ngIf="!isLoading && errorMessage" class="error">
+    <p>{{ errorMessage }}</p>
+  </div>
+
+  <!-- Hiển thị chi tiết sản phẩm khi có dữ liệu -->
+  <div *ngIf="!isLoading && product" class="product-detail">
+    <div class="product-image">
+      <img [src]="product.image" [alt]="product.name" />
+    </div>
+
+    <div class="product-info">
+      <h2>{{ product.name }}</h2>
+      <p class="price">Giá: {{ product.price | currency: 'VND' }}</p>
+      <p class="original-price">Giá cũ: {{ product.originalPrice | currency: 'VND' }}</p>
+      <p class="description">{{ product.description }}</p>
+
+      <!-- Nút mua ngay -->
+      <button class="buy-now" (click)="addToCart()">Mua Ngay</button>
+    </div>
+  </div>
+
+  <app-footer></app-footer>
+</div>

@@ -1,0 +1,90 @@
+<app-navbar></app-navbar> <!-- Navbar -->
+
+<div class="checkout-container">
+  <!-- Nút quay lại giỏ hàng -->
+  <div class="cart-button-container">
+    <button 
+      class="btn btn-primary" 
+      (click)="proceedToCart()" 
+      style="background-color: #d32f2f; color: white; border: none; border-radius: 10px; width: 200px; height: 40px; margin: 20px 0 0 40px;">
+      < Quay lại giỏ hàng
+    </button>
+  </div>
+
+  <!-- Thông tin giao hàng -->
+  <div class="billing-details">
+    <h2>Thông tin giao hàng</h2>
+    <form [formGroup]="checkoutForm" (ngSubmit)="onSubmit()">
+      <div class="form-group">
+        <input type="text" formControlName="fullName" placeholder="Tên đầy đủ*" />
+      </div>
+      <div class="form-group">
+        <input type="text" formControlName="phoneNumber" placeholder="Số điện thoại*" />
+      </div>
+      <div class="form-group">
+        <input type="text" formControlName="commune" placeholder="Xã/Phường*" />
+      </div>
+      <div class="form-group">
+        <input type="text" formControlName="province" placeholder="Huyện*" />
+      </div>
+      <div class="form-group">
+        <input type="text" formControlName="city" placeholder="Thành phố*" />
+      </div>
+      <div class="form-group">
+        <input type="text" formControlName="streetAddress" placeholder="Địa chỉ nhà*" />
+      </div>
+    </form>
+  </div>
+
+  <!-- Tóm tắt đơn hàng -->
+  <div class="order-summary">
+    <h2>Tóm tắt đơn hàng</h2>
+    <div *ngIf="cartItems.length === 0" class="empty-cart">
+      <p>Giỏ hàng của bạn đang trống.</p>
+    </div>
+    <div *ngIf="cartItems.length > 0">
+      <div *ngFor="let item of cartItems" class="cart-item">
+        <div class="item-details">
+          <img [src]="item.image" [alt]="item.name" />
+          <span class="item-name">{{ item.name }}</span>
+        </div>
+        <div class="item-quantity">
+          <span>Số lượng: {{ item.quantity }}</span>
+        </div>
+        <div class="item-price">
+          <span>Giá: ${{ item.price * item.quantity }}</span>
+        </div>
+      </div>
+      <hr />
+      <div class="totals">
+        <p>Số lượng: <strong>{{ totalQuantity }}</strong></p>
+        <p>Phí vận chuyển: <strong>Miễn phí</strong></p>
+        <p>Tổng: <strong>${{ subtotal }}</strong></p>
+      </div>
+    </div>
+
+    <!-- Phương thức thanh toán -->
+    <div class="payment-methods">
+      <h3>Phương thức thanh toán</h3>
+      <label>
+        <input type="radio" name="payment" value="cod" [(ngModel)]="paymentMethod" checked />
+        Thanh toán khi nhận hàng
+      </label>
+      <label>
+        <input type="radio" name="payment" value="bank" [(ngModel)]="paymentMethod" />
+        Thẻ tín dụng
+      </label>
+      <div class="cards">
+        <img src="https://banner2.cleanpng.com/20180501/wyw/avdbjl7k6.webp" alt="Visa" class="icon" />
+        <img src="https://athgroup.vn/upload/blocks/thumb_1920x0/ATH-kh%C3%A1m-ph%C3%A1-b%E1%BB%99-nh%E1%BA%ADn-di%E1%BB%87n-mastercard-4.png" alt="Mastercard" class="icon" />
+      </div>
+    </div>
+
+    <!-- Nút đặt hàng -->
+    <button class="btn btn-primary order-button" (click)="onSubmit()">
+      Đặt Hàng
+    </button>
+  </div>
+</div>
+
+<app-footer></app-footer> <!-- Footer -->

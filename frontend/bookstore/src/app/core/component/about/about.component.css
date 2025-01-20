@@ -1,0 +1,103 @@
+/* Cấu trúc chính của trang About */
+.about-container {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Phần hình ảnh chính */
+.about-image {
+    display: flex;
+    justify-content: center; /* Căn giữa phần tử ảnh */
+    width: 100%; /* Đảm bảo chiếm toàn bộ chiều rộng */
+}
+
+.about-image img {
+    max-width: 100%; /* Đảm bảo ảnh không bị phóng đại quá mức */
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+    margin: 0 auto; /* Căn giữa ảnh */
+}
+
+.about-image img:hover {
+    transform: scale(1.05);
+}
+
+/* Nội dung phần About */
+.content {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Căn giữa phần content */
+}
+
+/* Phần About Section */
+.about-section {
+    display: flex;
+    flex-direction: column; /* Xếp từng phần nội dung theo cột */
+    gap: 30px; /* Tạo khoảng cách giữa các phần */
+  }
+  
+  .section {
+    display: flex;
+    justify-content: space-between; /* Căn đều nội dung và ảnh */
+    align-items: flex-start; /* Căn ảnh và nội dung theo đầu dòng */
+    gap: 20px; /* Khoảng cách giữa văn bản và ảnh */
+  }
+  
+  .text {
+    width: 70%; /* Phần văn bản chiếm 70% chiều ngang */
+  }
+  
+  .text h2 {
+    font-size: 1.8rem;
+    color: #333;
+    margin-top: 10px;
+    text-align: justify;
+  }
+  
+  .text p, .text ul {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    color: #555;
+    text-align: justify;
+  }
+  
+  .image {
+    width: 30%; /* Phần ảnh chiếm 30% chiều ngang */
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+  }
+  
+  .image img {
+    width: 100%; /* Ảnh tự động căn chỉnh theo container */
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease;
+  }
+  
+  .image img:hover {
+    transform: scale(1.05); /* Hiệu ứng phóng to khi hover */
+  }
+  
+
+/* Phần Social Icons */
+.social-icons a {
+    display: inline-block;
+    margin-right: 10px;
+    font-size: 1.5rem;
+    color: #fff;
+}
+
+.social-icons a:hover {
+    color: #ffcc00;
+}

@@ -1,0 +1,60 @@
+<div class="register-container">
+  <app-navbar></app-navbar>
+
+  <div class="content">
+    <div class="register-image">
+      <img src="https://cdn.popsww.com/blog/sites/2/2021/04/cam-tu-ky-bao.jpg" alt="Sách">
+    </div>
+
+    <div class="register-form">
+      <h2>Đăng ký</h2>
+      <form [formGroup]="registerForm" (ngSubmit)="onRegister()">
+        <div class="form-group">
+          <label for="fullName">Họ và tên</label>
+          <input type="text" id="fullName" formControlName="fullName" placeholder="Nhập họ và tên của bạn">
+          <p class="error" *ngIf="registerForm.controls['fullName'].touched && registerForm.controls['fullName'].invalid">
+            Họ và tên phải có ít nhất 3 ký tự.
+          </p>
+        </div>
+        
+        <div class="form-group">
+          <label for="email">Email</label>
+          <input type="email" id="email" formControlName="email" placeholder="Nhập email của bạn">
+          <p class="error" *ngIf="registerForm.controls['email'].touched && registerForm.controls['email'].invalid">
+            Email không hợp lệ.
+          </p>
+        </div>
+        
+        <div class="form-group">
+          <label for="phoneNumber">Số điện thoại</label>
+          <input type="tel" id="phoneNumber" formControlName="phoneNumber" placeholder="Nhập số điện thoại của bạn">
+          <p class="error" *ngIf="registerForm.controls['phoneNumber'].touched && registerForm.controls['phoneNumber'].invalid">
+            Số điện thoại không hợp lệ (phải bắt đầu bằng 0 và có 10 chữ số).
+          </p>
+        </div>
+        
+        <div class="form-group">
+          <label for="password">Mật khẩu</label>
+          <input type="password" id="password" formControlName="password" placeholder="Nhập mật khẩu">
+          <p class="error" *ngIf="registerForm.controls['password'].touched && registerForm.controls['password'].invalid">
+            Mật khẩu phải có ít nhất 8 ký tự.
+          </p>
+        </div>
+        
+        <div class="form-group">
+          <label for="confirmPassword">Xác nhận mật khẩu</label>
+          <input type="password" id="confirmPassword" formControlName="confirmPassword" placeholder="Nhập lại mật khẩu">
+          <p class="error" *ngIf="registerForm.errors?.['passwordsMismatch']">
+            Mật khẩu và xác nhận mật khẩu không khớp.
+          </p>
+        </div>
+        
+        <button type="submit" class="btn btn-primary" [disabled]="registerForm.invalid">Tạo tài khoản</button>
+      </form>
+      <p *ngIf="errorMessage" class="error">{{ errorMessage }}</p>
+      <p>Bạn đã có tài khoản? <a (click)="goToLogin()">Đăng nhập</a></p>
+    </div>
+  </div>
+
+  <app-footer></app-footer>
+</div>
